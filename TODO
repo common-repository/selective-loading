@@ -1,0 +1,13 @@
+-. Create templates to limit actions within plugins
+  - Scan plugin for all actionable items
+  - Enable access to limit which action-calls that can be made in which template
+  
+  Example: Plugin X has actions for showing content on the side but there's no need to load actions for the administrative interface this these can be disabled unless you're in the admin-interface
+
+- Device templates
+   - Enable templates based on the HTTP_USER_AGENT as different plugins may be necessary depending on what client browser that's used, mobile vs. desktop for instance
+
+- Fix design
+  - Needs to look a bit fancier
+
+- Enable plugins in default template upon Activate by default rather than having to enabling it within Selective Loading as well
